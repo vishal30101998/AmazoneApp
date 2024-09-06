@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AmazonApp</string>
+    <string name="deals_of_the_day">Deals of the Day</string>
+    <string name="todo">TODO</string>
+    <string name="nike_revolution_5_nrunning_shoes">Nike Revolution 5\nRunning Shoes</string>
+    <string name="_3000">₹3000</string>
+    <string name="todo2">TODO</string>
+    <string name="nike_air_nmax_shoes">Nike Air\nMax Shoes</string>
+    <string name="_9500">₹9500</string>
+    <string name="todo3">TODO</string>
+    <string name="nike_revolution_5_nrunning_shoes2">Nike Revolution 5\nRunning Shoes</string>
+    <string name="_2999">₹3000</string>
+    <string name="todo4">TODO</string>
+    <string name="todo5">TODO</string>
+    <string name="amazon">Amazon</string>
+</resources>

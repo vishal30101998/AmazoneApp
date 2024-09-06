@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" tools:context=".MenuFiles.SearchActivity" android:background="@color/white">
+    <Toolbar android:layout_width="match_parent" android:layout_height="60dp" android:background="#E453AEF6" android:id="@+id/viewtoolbar">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal">
+            <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/back" android:id="@+id/backHome" android:layout_gravity="center_vertical"/>
+            <EditText android:layout_width="230dp" android:layout_height="40dp" android:hint="Search" android:paddingLeft="10dp" android:id="@+id/searchEditText" android:textColor="@color/black" android:textSize="20dp" android:textColorHint="#AE636363" android:background="@drawable/searchedittext" android:layout_gravity="center_vertical" android:fontFamily="sans-serif-condensed-medium" android:layout_marginStart="15dp"/>
+            <androidx.appcompat.widget.AppCompatButton android:layout_width="80dp" android:layout_height="40dp" android:layout_gravity="center" android:id="@+id/searchBtn" android:layout_marginStart="6dp" android:layout_marginEnd="10dp" android:text="SEARCH" android:textColor="@color/black" android:textAlignment="center" android:background="@drawable/intro_signin"/>
+        </LinearLayout>
+    </Toolbar>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/searchList" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="70dp" android:paddingBottom="10dp" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingTop="10dp" android:layout_below="@id/viewtoolbar"/>
+</FrameLayout>

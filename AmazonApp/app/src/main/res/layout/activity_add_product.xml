@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="50dp">
+   <Toolbar android:layout_width="match_parent" android:layout_height="60dp" android:background="#E453AEF6" android:id="@+id/addtoolbar">
+      <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="horizontal">
+         <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/back" android:id="@+id/addProductBack" android:layout_gravity="center_vertical"/>
+         <TextView android:layout_width="wrap_content" android:layout_height="40dp" android:text="Add a Product" android:textColor="@color/black" android:textSize="28dp" android:layout_gravity="center_vertical" android:fontFamily="sans-serif-condensed-medium" android:layout_marginStart="15dp"/>
+      </LinearLayout>
+   </Toolbar>
+   <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/addtoolbar">
+      <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="center" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:layout_marginRight="20dp" android:orientation="vertical">
+         <ImageView android:layout_width="120dp" android:layout_height="120dp" android:layout_gravity="center_horizontal" android:src="@drawable/addprod" android:id="@+id/addProductImg"/>
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="Name of the Product" android:textColor="@color/black" android:textSize="15dp"/>
+         <EditText android:layout_width="match_parent" android:layout_height="50dp" android:id="@+id/addProductName" android:layout_marginTop="5dp" android:padding="10dp" android:text="" android:background="@drawable/edittextshape"/>
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Unit Price of the Product (in ₹)" android:textColor="@color/black" android:textSize="15dp"/>
+         <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+            <EditText android:layout_width="match_parent" android:layout_height="50dp" android:id="@+id/addProductPrice" android:layout_marginTop="5dp" android:padding="10dp" android:text="" android:background="@drawable/edittextshape"/>
+         </LinearLayout>
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Description of the product" android:textColor="@color/black" android:textSize="15dp"/>
+         <EditText android:layout_width="match_parent" android:layout_height="50dp" android:id="@+id/addProductDesc" android:layout_marginTop="5dp" android:padding="10dp" android:text="" android:background="@drawable/edittextshape"/>
+         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="Category of the product (eg: smartphone, shoes,etc.)" android:textColor="@color/black" android:textSize="15dp"/>
+         <EditText android:layout_width="match_parent" android:layout_height="50dp" android:id="@+id/addProductCategory" android:layout_marginTop="5dp" android:padding="10dp" android:text="" android:background="@drawable/edittextshape"/>
+         <TextView android:layout_width="200dp" android:layout_height="50dp" android:layout_marginTop="25dp" android:id="@+id/confirmAddProd" android:gravity="center" android:layout_gravity="center_horizontal" android:textAlignment="center" android:text="Confirm" android:textColor="@color/black" android:textSize="22dp" android:fontFamily="sans-serif" android:background="@drawable/button_logout_shape"/>
+      </LinearLayout>
+   </ScrollView>
+</RelativeLayout>

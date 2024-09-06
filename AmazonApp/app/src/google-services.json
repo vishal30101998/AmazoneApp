@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "221898614594",
+    "project_id": "app-cf183",
+    "storage_bucket": "app-cf183.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221898614594:android:7c39d880ffc43a570b8adb",
+        "android_client_info": {
+          "package_name": "com.example.amazonapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1bL_AUwCZXwWo8LUYyMseLGuR82xUSAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

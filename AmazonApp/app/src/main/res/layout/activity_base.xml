@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom"
+    android:paddingBottom="5dp"
+    android:background="@color/white">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="60dp" android:elevation="10dp" android:id="@+id/bottomNavBar" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_gravity="bottom" android:gravity="bottom" android:orientation="horizontal" android:layout_alignParentBottom="true" android:foregroundGravity="bottom">
+        <RadioGroup android:id="@+id/radioGroup1" android:gravity="center" android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="horizontal" android:baselineAligned="false">
+            <RadioButton
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:text="Home"
+                android:layout_weight="1"
+                android:button="@null"
+                android:padding="2dp"
+                android:checked="false"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/menu_icon_home"
+                android:textColor="@color/black"
+                android:id="@+id/bottom_home"/>
+            <RadioButton android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:layout_weight="1"
+                android:padding="2dp" android:checked="false"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/menu_icon_addprod"
+                android:textColor="@color/black"
+                android:id="@+id/bottom_addprod"
+                android:text="Add Product"/>
+            <RadioButton android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:id="@+id/bottom_search"
+                android:button="@null"
+                android:padding="2dp"
+                android:layout_weight="1"
+                android:checked="false"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/menu_icon_search"
+                android:textColor="@color/black"
+                android:text="Search"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:padding="2dp"
+                android:checked="false"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/menu_icon_mycart"
+                android:textColor="@color/black"
+                android:id="@+id/bottom_cart"
+                android:text="My Cart"/>
+            <RadioButton
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:padding="2dp"
+                android:checked="false"
+                android:layout_weight="1"
+                android:textSize="12sp"
+                android:drawableTop="@drawable/menu_icon_profile"
+                android:textColor="@color/black"
+                android:id="@+id/bottom_profile"
+                android:text="Profile"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dynamicContent"
+        android:orientation="vertical"
+        android:layout_marginBottom="56dp"
+        android:layout_gravity="bottom">
+    </LinearLayout>
+
+</FrameLayout>
